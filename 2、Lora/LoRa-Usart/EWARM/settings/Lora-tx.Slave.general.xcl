@@ -1,0 +1,15 @@
+"D:\IAR Systems\Embedded Workbench 8.2\arm\bin\armproc.dll" 
+
+"D:\IAR Systems\Embedded Workbench 8.2\arm\bin\armjlink2.dll" 
+
+"F:\Stm32_Code\Lora\LoRa-Usart\EWARM\Slave\Exe\Lora-tx.out" 
+
+--plugin="D:\IAR Systems\Embedded Workbench 8.2\arm\bin\armbat.dll" 
+
+--device_macro="D:\IAR Systems\Embedded Workbench 8.2\arm\config\debugger\ST\STM32F1xx.dmac" 
+
+--flash_loader="D:\IAR Systems\Embedded Workbench 8.2\arm\config\flashloader\ST\FlashSTM32F10xx8.board" 
+
+
+
+

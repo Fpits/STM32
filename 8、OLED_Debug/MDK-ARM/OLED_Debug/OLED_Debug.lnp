@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"oled_debug\startup_stm32f103xe.o"
+"oled_debug\oled.o"
+"oled_debug\oledkey.o"
+"oled_debug\main.o"
+"oled_debug\gpio.o"
+"oled_debug\usart.o"
+"oled_debug\stm32f1xx_it.o"
+"oled_debug\stm32f1xx_hal_msp.o"
+"oled_debug\stm32f1xx_hal_gpio_ex.o"
+"oled_debug\stm32f1xx_hal_tim.o"
+"oled_debug\stm32f1xx_hal_tim_ex.o"
+"oled_debug\stm32f1xx_hal_uart.o"
+"oled_debug\stm32f1xx_hal.o"
+"oled_debug\stm32f1xx_hal_rcc.o"
+"oled_debug\stm32f1xx_hal_rcc_ex.o"
+"oled_debug\stm32f1xx_hal_gpio.o"
+"oled_debug\stm32f1xx_hal_dma.o"
+"oled_debug\stm32f1xx_hal_cortex.o"
+"oled_debug\stm32f1xx_hal_pwr.o"
+"oled_debug\stm32f1xx_hal_flash.o"
+"oled_debug\stm32f1xx_hal_flash_ex.o"
+"oled_debug\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "OLED_Debug\OLED_Debug.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "OLED_Debug.map" -o OLED_Debug\OLED_Debug.axf

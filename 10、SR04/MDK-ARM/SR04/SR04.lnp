@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"sr04\startup_stm32f103xe.o"
+"sr04\main.o"
+"sr04\gpio.o"
+"sr04\tim.o"
+"sr04\usart.o"
+"sr04\stm32f1xx_it.o"
+"sr04\stm32f1xx_hal_msp.o"
+"sr04\stm32f1xx_hal_gpio_ex.o"
+"sr04\stm32f1xx_hal_tim.o"
+"sr04\stm32f1xx_hal_tim_ex.o"
+"sr04\stm32f1xx_hal_uart.o"
+"sr04\stm32f1xx_hal.o"
+"sr04\stm32f1xx_hal_rcc.o"
+"sr04\stm32f1xx_hal_rcc_ex.o"
+"sr04\stm32f1xx_hal_gpio.o"
+"sr04\stm32f1xx_hal_dma.o"
+"sr04\stm32f1xx_hal_cortex.o"
+"sr04\stm32f1xx_hal_pwr.o"
+"sr04\stm32f1xx_hal_flash.o"
+"sr04\stm32f1xx_hal_flash_ex.o"
+"sr04\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "SR04\SR04.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SR04.map" -o SR04\SR04.axf

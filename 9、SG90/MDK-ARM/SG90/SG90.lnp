@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"sg90\startup_stm32f103xe.o"
+"sg90\main.o"
+"sg90\gpio.o"
+"sg90\tim.o"
+"sg90\usart.o"
+"sg90\stm32f1xx_it.o"
+"sg90\stm32f1xx_hal_msp.o"
+"sg90\stm32f1xx_hal_gpio_ex.o"
+"sg90\stm32f1xx_hal_tim.o"
+"sg90\stm32f1xx_hal_tim_ex.o"
+"sg90\stm32f1xx_hal_uart.o"
+"sg90\stm32f1xx_hal.o"
+"sg90\stm32f1xx_hal_rcc.o"
+"sg90\stm32f1xx_hal_rcc_ex.o"
+"sg90\stm32f1xx_hal_gpio.o"
+"sg90\stm32f1xx_hal_dma.o"
+"sg90\stm32f1xx_hal_cortex.o"
+"sg90\stm32f1xx_hal_pwr.o"
+"sg90\stm32f1xx_hal_flash.o"
+"sg90\stm32f1xx_hal_flash_ex.o"
+"sg90\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "SG90\SG90.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SG90.map" -o SG90\SG90.axf

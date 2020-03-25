@@ -1,0 +1,580 @@
+Dependencies for Project 'NB-IOT', Target 'NB-IOT': (DO NOT MODIFY !)
+F (startup_stm32f103xb.s)(0x5DDD359F)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include--pd "__UVISION_VERSION SETA 518" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list startup_stm32f103xb.lst --xref -o nb-iot\startup_stm32f103xb.o --depend nb-iot\startup_stm32f103xb.d)
+F (..\Consumer\nbiotdriver.c)(0x5DDD2A1B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\nbiotdriver.o --omf_browse nb-iot\nbiotdriver.crf --depend nb-iot\nbiotdriver.d)
+I (..\Consumer\nbiotdriver.h)(0x5DD9E9C2)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+I (../Inc/usart.h)(0x5DDD359C)
+I (../Inc/main.h)(0x5DDD359D)
+I (D:\Keil5.18\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (..\Consumer\time.h)(0x5DD8FFB9)
+I (..\Consumer\led.h)(0x5DD9E3BA)
+F (..\Consumer\time.c)(0x5DD9008E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\time.o --omf_browse nb-iot\time.crf --depend nb-iot\time.d)
+I (..\Consumer\time.h)(0x5DD8FFB9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+F (..\Consumer\led.c)(0x5DD9E482)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\led.o --omf_browse nb-iot\led.crf --depend nb-iot\led.d)
+I (..\Consumer\led.h)(0x5DD9E3BA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+I (..\Consumer\time.h)(0x5DD8FFB9)
+F (../Src/main.c)(0x5DDD359D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\main.o --omf_browse nb-iot\main.crf --depend nb-iot\main.d)
+I (../Inc/main.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+I (../Inc/dma.h)(0x5DDD359C)
+I (../Inc/usart.h)(0x5DDD359C)
+I (../Inc/gpio.h)(0x5DDD359C)
+I (..\Consumer\nbiotdriver.h)(0x5DD9E9C2)
+I (..\Consumer\led.h)(0x5DD9E3BA)
+F (../Src/gpio.c)(0x5DDD359C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\gpio.o --omf_browse nb-iot\gpio.crf --depend nb-iot\gpio.d)
+I (../Inc/gpio.h)(0x5DDD359C)
+I (../Inc/main.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+F (../Src/dma.c)(0x5DDD359C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\dma.o --omf_browse nb-iot\dma.crf --depend nb-iot\dma.d)
+I (../Inc/dma.h)(0x5DDD359C)
+I (../Inc/main.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+F (../Src/usart.c)(0x5DDD359C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\usart.o --omf_browse nb-iot\usart.crf --depend nb-iot\usart.d)
+I (../Inc/usart.h)(0x5DDD359C)
+I (../Inc/main.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\string.h)(0x569DEA3A)
+F (../Src/stm32f1xx_it.c)(0x5DDD359D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\stm32f1xx_it.o --omf_browse nb-iot\stm32f1xx_it.crf --depend nb-iot\stm32f1xx_it.d)
+I (../Inc/main.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_it.h)(0x5DDD359D)
+I (../Inc/usart.h)(0x5DDD359C)
+F (../Src/stm32f1xx_hal_msp.c)(0x5DDD359D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\stm32f1xx_hal_msp.o --omf_browse nb-iot\stm32f1xx_hal_msp.crf --depend nb-iot\stm32f1xx_hal_msp.d)
+I (../Inc/main.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x5DAC12A9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\stm32f1xx_hal_gpio_ex.o --omf_browse nb-iot\stm32f1xx_hal_gpio_ex.crf --depend nb-iot\stm32f1xx_hal_gpio_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x5DAC12A9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\stm32f1xx_hal_tim.o --omf_browse nb-iot\stm32f1xx_hal_tim.crf --depend nb-iot\stm32f1xx_hal_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x5DAC12A9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\stm32f1xx_hal_tim_ex.o --omf_browse nb-iot\stm32f1xx_hal_tim_ex.crf --depend nb-iot\stm32f1xx_hal_tim_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x5DAC12A9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\stm32f1xx_hal_uart.o --omf_browse nb-iot\stm32f1xx_hal_uart.crf --depend nb-iot\stm32f1xx_hal_uart.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x5DAC12A9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\stm32f1xx_hal.o --omf_browse nb-iot\stm32f1xx_hal.crf --depend nb-iot\stm32f1xx_hal.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x5DAC12A9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\stm32f1xx_hal_rcc.o --omf_browse nb-iot\stm32f1xx_hal_rcc.crf --depend nb-iot\stm32f1xx_hal_rcc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x5DAC12A9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\stm32f1xx_hal_rcc_ex.o --omf_browse nb-iot\stm32f1xx_hal_rcc_ex.crf --depend nb-iot\stm32f1xx_hal_rcc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x5DAC12A9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\stm32f1xx_hal_gpio.o --omf_browse nb-iot\stm32f1xx_hal_gpio.crf --depend nb-iot\stm32f1xx_hal_gpio.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x5DAC12A9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\stm32f1xx_hal_dma.o --omf_browse nb-iot\stm32f1xx_hal_dma.crf --depend nb-iot\stm32f1xx_hal_dma.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x5DAC12A9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\stm32f1xx_hal_cortex.o --omf_browse nb-iot\stm32f1xx_hal_cortex.crf --depend nb-iot\stm32f1xx_hal_cortex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x5DAC12A9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\stm32f1xx_hal_pwr.o --omf_browse nb-iot\stm32f1xx_hal_pwr.crf --depend nb-iot\stm32f1xx_hal_pwr.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x5DAC12A9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\stm32f1xx_hal_flash.o --omf_browse nb-iot\stm32f1xx_hal_flash.crf --depend nb-iot\stm32f1xx_hal_flash.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x5DAC12A9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\stm32f1xx_hal_flash_ex.o --omf_browse nb-iot\stm32f1xx_hal_flash_ex.crf --depend nb-iot\stm32f1xx_hal_flash_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)
+F (../Src/system_stm32f1xx.c)(0x5DAC1296)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Consumer-I F:\Stm32_Code\NB-IOT-ESP8266\MDK-ARM\RTE-I D:\Keil5.18\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil5.18\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o nb-iot\system_stm32f1xx.o --omf_browse nb-iot\system_stm32f1xx.crf --depend nb-iot\system_stm32f1xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5DAC1295)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5DAC12A8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5DAC1295)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5DAC12A8)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5DDD359D)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5DAC12A8)
+I (D:\Keil5.18\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5DAC12A8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5DAC12A8)

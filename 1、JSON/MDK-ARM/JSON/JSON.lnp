@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"json\startup_stm32f103xb.o"
+"json\cjson.o"
+"json\main.o"
+"json\gpio.o"
+"json\dma.o"
+"json\usart.o"
+"json\stm32f1xx_it.o"
+"json\stm32f1xx_hal_msp.o"
+"json\stm32f1xx_hal_gpio_ex.o"
+"json\stm32f1xx_hal_tim.o"
+"json\stm32f1xx_hal_tim_ex.o"
+"json\stm32f1xx_hal_uart.o"
+"json\stm32f1xx_hal.o"
+"json\stm32f1xx_hal_rcc.o"
+"json\stm32f1xx_hal_rcc_ex.o"
+"json\stm32f1xx_hal_gpio.o"
+"json\stm32f1xx_hal_dma.o"
+"json\stm32f1xx_hal_cortex.o"
+"json\stm32f1xx_hal_pwr.o"
+"json\stm32f1xx_hal_flash.o"
+"json\stm32f1xx_hal_flash_ex.o"
+"json\system_stm32f1xx.o"
+"json\user_usart.o"
+--library_type=microlib --strict --scatter "JSON\JSON.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "JSON.map" -o JSON\JSON.axf

@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"oled\startup_stm32f103xb.o"
+"oled\oled.o"
+"oled\main.o"
+"oled\gpio.o"
+"oled\usart.o"
+"oled\stm32f1xx_it.o"
+"oled\stm32f1xx_hal_msp.o"
+"oled\stm32f1xx_hal_gpio_ex.o"
+"oled\stm32f1xx_hal_tim.o"
+"oled\stm32f1xx_hal_tim_ex.o"
+"oled\stm32f1xx_hal_uart.o"
+"oled\stm32f1xx_hal.o"
+"oled\stm32f1xx_hal_rcc.o"
+"oled\stm32f1xx_hal_rcc_ex.o"
+"oled\stm32f1xx_hal_gpio.o"
+"oled\stm32f1xx_hal_dma.o"
+"oled\stm32f1xx_hal_cortex.o"
+"oled\stm32f1xx_hal_pwr.o"
+"oled\stm32f1xx_hal_flash.o"
+"oled\stm32f1xx_hal_flash_ex.o"
+"oled\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "OLED\OLED.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "OLED.map" -o OLED\OLED.axf
